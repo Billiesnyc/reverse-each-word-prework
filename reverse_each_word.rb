@@ -4,4 +4,5 @@ def reverse_each_word(string)
     new_word_array = word.split(%r{\s*})
     new_word_array.reverse!
   end
+  new_word_array
 end 
